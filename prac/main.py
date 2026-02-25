@@ -71,7 +71,7 @@ def create_todo(todo: TodoCreate):
     
     all_todos.append(new_todo)
     
-    return new_tod
+    return new_todo
 
 @app.put('/todos/{todo_id}', response_model=Todo)
 def update_todo(todo_id: int, updated_todo: TodoUpdate):
