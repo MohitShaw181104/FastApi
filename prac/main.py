@@ -28,6 +28,3 @@ def get_todos(first_n:int = None):
     else:
         return all_todos
     
-@app.post('/todos')
-def create_todo(todo: dict):
-    new_todo_id= 
